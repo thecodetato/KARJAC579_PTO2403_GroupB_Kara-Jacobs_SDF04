@@ -78,6 +78,19 @@ p {
 }
 
 /*btn-2*/
+.btn-2 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: #e99e75;
+  background: linear-gradient(
+    0deg,
+    rgba(109, 56, 70, 1) 0%,
+    rgba(233, 147, 117, 1) 100%
+  );
+}
 
 /*btn-3*/
 .btn-3 {
