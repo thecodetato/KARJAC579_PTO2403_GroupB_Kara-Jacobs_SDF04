@@ -91,6 +91,35 @@ p {
     rgba(233, 147, 117, 1) 100%
   );
 }
+.btn-2:hover {
+  color: #e99375;
+  background: none;
+  box-shadow: none;
+}
+.btn-2::before,
+.btn-2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #6d3846;
+  transition: 100ms ease-in-out;
+}
+.btn-2::after {
+  top: inherit;
+  right: 0;
+  left: inherit;
+  bottom: 0;
+}
+.btn-2:hover::before,
+.btn-2:hover::after {
+  width: 100%;
+  transition: 1000ms ease all;
+}
 
 /*btn-3*/
 .btn-3 {
