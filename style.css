@@ -60,20 +60,20 @@ p {
 
 /*btn-1*/
 .btn-1 {
-  background: rgb(199, 151, 235);
+  background: rgb(170, 100, 225);
   background: linear-gradient(
     0deg,
-    rgba(199, 151, 235) 0%,
-    rgb(220, 187, 245) 100%
+    rgba(170, 100, 225) 0%,
+    rgb(180, 140, 220) 100%
   );
   border: none;
 }
 .btn-1:hover {
-  background: rgb(220, 187, 245);
+  background: rgb(200, 155, 235);
   background: linear-gradient(
     0deg,
-    rgba(220, 187, 245, 1) 0%,
-    rgb(237, 220, 250) 100%
+    rgb(168, 125, 210) 0%,
+    rgb(210, 185, 235) 100%
   );
 }
 
