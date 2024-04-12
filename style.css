@@ -57,3 +57,12 @@ p {
 }
 
 /* Add your custom styles for btn-1, btn-2, and btn-3 */
+.btn-1 {
+  background: rgb(199, 151, 235);
+  background: linear-gradient(
+    0deg,
+    rgba(199, 151, 235) 0%,
+    rgb(220, 187, 245) 100%
+  );
+  border: none;
+}
