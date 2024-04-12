@@ -40,7 +40,7 @@ p {
 .custom-btn {
   width: 130px;
   height: 40px;
-  color: #000;
+  color: #fff;
   border-radius: 5px;
   padding: 10px 25px;
   font-family: "Lato", sans-serif;
@@ -65,4 +65,12 @@ p {
     rgb(220, 187, 245) 100%
   );
   border: none;
+}
+.btn-1:hover {
+  background: rgb(220, 187, 245);
+  background: linear-gradient(
+    0deg,
+    rgba(220, 187, 245, 1) 0%,
+    rgb(237, 220, 250) 100%
+  );
 }
