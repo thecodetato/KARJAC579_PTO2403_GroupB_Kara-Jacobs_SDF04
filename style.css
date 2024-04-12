@@ -64,15 +64,15 @@ p {
   background: linear-gradient(
     0deg,
     rgba(170, 100, 225) 0%,
-    rgb(180, 140, 220) 100%
+    rgb(185, 148, 222) 100%
   );
   border: none;
 }
 .btn-1:hover {
-  background: rgb(200, 155, 235);
+  background: rgb(185, 148, 210);
   background: linear-gradient(
     0deg,
-    rgb(168, 125, 210) 0%,
+    rgb(195, 148, 210) 0%,
     rgb(210, 185, 235) 100%
   );
 }
